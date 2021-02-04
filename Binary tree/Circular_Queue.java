@@ -10,7 +10,7 @@ public class Node{
 }
 public class Circular_Queue{
    static Node head,tail;
-   public static void main(String args[]){
+   public static void main(String[] args){
       Scanner sc = new Scanner(System.in);
       while(true){
          System.out.print("\nPress 1 to Enter element into QUEUE");
@@ -32,7 +32,7 @@ public class Circular_Queue{
             print_queue();
          }
          else if (choice == 4){
-            System.out.print("\nExitting program");
+            System.out.print("\nExiting program");
             System.exit(0);
          }
          else{
